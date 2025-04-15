@@ -8,7 +8,7 @@ function App() {
     setIsDarkMode(!isDarkMode);
   }
 
-  
+  const appClass = isDarkMode ? "App dark" : "App light";
 
   return (
     <div className={appClass}>
